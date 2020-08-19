@@ -2,13 +2,13 @@ pipeline {
         agent any
         environment {
             registry = "bhuvanascloud/sprint6dockerjenkins"
-            registryCredential = 'dockerhubcredentials'
+            registryCredential = 'dockerhubconnection'
             dockerImage = ''
 		PROJECT_ID = 'engaged-droplet-285511'
  		CLUSTER_NAME = 'gcloud-k8s-jenkins-cluster'
  		LOCATION = 'europe-west2-a'
  		CREDENTIALS_ID = 'jenkins-k8'
-        }
+        }docke
 		
 	    stages {	
 		   stage('Scm Checkout') {            
