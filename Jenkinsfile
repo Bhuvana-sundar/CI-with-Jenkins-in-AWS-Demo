@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "bhuvanascloud/sprint6dockerjenkins"
+            registry = "bhuvanascloud/sprint6"
             registryCredential = 'Dockerhubconnection'
             dockerImage = ''
 		PROJECT_ID = 'engaged-droplet-285511'
