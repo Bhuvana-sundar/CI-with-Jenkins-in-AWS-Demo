@@ -4,8 +4,8 @@ pipeline {
             registry = "bhuvanascloud/sprint6dockerjenkins"
             registryCredential = 'dockerhubcredentials'
             dockerImage = ''
-		PROJECT_ID = 'devops'
- 		CLUSTER_NAME = 'k8s-jenkins-cluster-gcloud'
+		PROJECT_ID = 'engaged-droplet-285511'
+ 		CLUSTER_NAME = 'gcloud-k8s-jenkins-cluster'
  		LOCATION = 'europe-west2-a'
  		CREDENTIALS_ID = 'jenkins-k8'
         }
