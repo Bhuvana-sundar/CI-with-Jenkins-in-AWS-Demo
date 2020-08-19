@@ -8,7 +8,7 @@ pipeline {
  		CLUSTER_NAME = 'gcloud-k8s-jenkins-cluster'
  		LOCATION = 'europe-west2-a'
  		CREDENTIALS_ID = 'jenkins-k8'
-        }docke
+        }
 		
 	    stages {	
 		   stage('Scm Checkout') {            
