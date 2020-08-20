@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mytestapp
-        image: bhuvanascloud/sprint6:tagversion 
+        image: bhuvanadevopsengineer/sprint6:tagversion 
         ports:
         - containerPort: 8080
 ---
