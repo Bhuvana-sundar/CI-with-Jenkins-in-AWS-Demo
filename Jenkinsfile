@@ -1,8 +1,8 @@
 pipeline {
         agent any
         environment {
-            registry = "bhuvanascloud/sprint6"
-            registryCredential = 'dockerhubkey'
+            registry = "bhuvanadevopsengineer/sprint6"
+            registryCredential = 'newdockerkey'
             dockerImage = ''
 		PROJECT_ID = 'engaged-droplet-285511'
  		CLUSTER_NAME = 'gcloud-k8s-jenkins-cluster'
